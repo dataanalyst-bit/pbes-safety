@@ -1,0 +1,10 @@
+# Cloudflare Pages redirect file.
+# Every path on this site bounces to the Safety app.
+#
+# VERIFY THE URL BELOW before deploying: open the app in Chrome, copy the
+# address bar, and paste it over the target. One wrong character fails silently.
+#
+# 302 (temporary) is deliberate. A 301 gets cached permanently by the browser,
+# so if the deployment URL ever changes, users would be stuck on the old one.
+
+/*    https://script.google.com/a/macros/pallavimodelschools.org/s/AKfycbxQPN6UoIfByzI9gLxm1QnU5kpEca10mJoc-Lazz8IqcVe0MowWwGFY_nbau9xy1u1T/exec    302
